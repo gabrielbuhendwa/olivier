@@ -12,9 +12,6 @@ body{
     font-family: 'Average Sans', sans-serif;
 }
 footer{
-    /*display: flex;*/
-    /*justify-content: space-around;*/
-     /*flex-wrap: wrap-reverse;*/
     padding: 30px 0;
     width: 99%;
     margin: auto;
@@ -46,7 +43,7 @@ i:hover{
 .text{
     padding-bottom: 10px;
 }
-/****************************** footer************************************/
+/******************************Media query************************************/
 @media screen and (max-width: 850px){
     #footer{
         display: grid;
@@ -54,10 +51,6 @@ i:hover{
         justify-content: center;
         gap: 30px;
     }
-    /*#footer{
-        display: flex;
-        flex-direction: column-reverse;
-    }*/
 }
 @media screen and (max-width: 550px){
     #footer{
@@ -68,5 +61,8 @@ i:hover{
     }
     #block1{
         order: 4;
+    }
+    h2,h3{
+        padding-bottom: 5px;
     }
 }
